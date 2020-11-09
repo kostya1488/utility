@@ -3,14 +3,16 @@
 // --- mixins
 // === / mixins
 // --- variables
-$screen_xs_max: 575px;
-$screen_sm_max: 767px;
-$screen_md_max: 991px;
-$screen_lg_max: 1199px;
+$screen_xs_max: 575.98px;
+$screen_sm_max: 767.98px;
+$screen_md_max: 991.98px;
+$screen_lg_max: 1199.98px;
+$screen_xl_max: 1399.98px;
 $screen_sm: 576px;
 $screen_md: 768px;
 $screen_lg: 992px;
 $screen_xl: 1200px;
+$screen_xxl: 1400px;
 // === / variables
 // --- commons
 * {
@@ -21,29 +23,16 @@ $screen_xl: 1200px;
     a,
     a:hover {
         text-decoration: none;
-        color: #fff;
-    }
-    ul {
         margin: 0;
         padding: 0;
-        list-style: none;
+        color: #fff;
     }
+    // ul {
+    //     list-style: none;
+    // }
 }
 
 section {
-    padding-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-
-// === / commons
-// --- header
-// === / header
-// --- intro
-// === / intro
-// --- promo
-// === / promo
-// --- about
-// === / about
-// --- feedback
-// === / feedback
-// --- contacts
-// === / contacts
