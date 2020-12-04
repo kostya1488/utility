@@ -30,9 +30,41 @@ $screen_xxl: 1400px;
     // ul {
     //     list-style: none;
     // }
+    @media (max-width: $screen_xs_max) {}
+    @media (min-width: $screen_sm) and (max-width: $screen_lg_max) {}
+    @media (min-width: $screen_xl) {}
 }
 
 section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    @media (max-width: $screen_xs_max) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    @media (min-width: $screen_sm) and (max-width: $screen_lg_max) {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    @media (min-width: $screen_xl) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 }
+
+// / === commons
+.header {}
+
+.section_intro {}
+
+.section_specialization {}
+
+.section_steps {}
+
+.section_search_method {}
+
+.section_stat {}
+
+.section_partners {}
+
+.section_feedback {}
+
+.section_footer {}
